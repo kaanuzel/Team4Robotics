@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/selc"
+        android:layout_width="wrap_content"
+        android:layout_height="63dp"
+        android:text="  관람할 곳을 선택하세요"
+        android:textColor="@color/black"
+        android:textSize="35sp"
+        android:textStyle="bold"
+        android:gravity="center"
+
+        />
+
+    <ImageButton
+        android:id="@+id/room1"
+        style="@style/Widget.AppCompat.ImageButton"
+        android:layout_width="655dp"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/selc"
+        android:scaleType="fitXY"
+        android:src="@drawable/room1"
+
+        />
+
+    <ImageButton
+        android:id="@+id/room2"
+        style="@style/Widget.AppCompat.ImageButton"
+        android:layout_width="635dp"
+        android:layout_height="match_parent"
+        android:layout_below="@id/selc"
+        android:layout_toRightOf="@+id/room1"
+        android:scaleType="fitXY"
+        android:src="@drawable/room22"
+
+        />
+
+
+
+
+</RelativeLayout>
